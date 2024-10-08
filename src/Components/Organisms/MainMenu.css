@@ -1,0 +1,43 @@
+.menu-container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.menu-container a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    position: relative;
+    padding: 24px;
+}
+
+.menu-container a .has-children {
+    display: block;
+    width: 8px;
+    height: 8px;
+    box-sizing: border-box;
+    border-top: 4px solid #E8E9FF;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: relative;
+    left: 117%;
+    top: -9px;
+}
+
+.menu-container a:hover {
+    color: #fff;
+}
+
+.menu-container a:hover::before {
+    content: ' ';
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    left: 7px;
+    top: 11px;
+
+}

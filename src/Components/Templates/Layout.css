@@ -1,0 +1,12 @@
+.layout {
+
+}
+
+.top-menu {
+    width: 100%;
+    background-color: #1F5CED;
+    padding: 0 24px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+}
